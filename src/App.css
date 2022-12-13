@@ -1,0 +1,65 @@
+/* Here we declare styles of html page */
+@import url('http://fonts.googleapis.com/css2?family=Poppins');
+
+/*  Common  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header-content {
+  margin-bottom: 200px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+.line {
+  width: 150px;
+  height: 4px;
+  background: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.header-content h1 {
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.ctn {
+  padding: 10px 15px;
+  background: #fc036b;
+  border-radius: 30px;
+  color: whitesmoke;
+}
+.ctn:hover {
+  background: whitesmoke;
+  transform: scale(1.1);
+  color: #fc036b;
+  box-shadow: 2px 2px 5px #00000056;
+}
+.reg {
+	padding: 10px 15px;
+  border-radius: 30px;
+  color: whitesmoke;
+}
+.reg:hover {
+	background: whitesmoke;
+  transform: scale(1.1);
+  color: #fc036b;
+  box-shadow: 2px 2px 5px #00000056;
+}

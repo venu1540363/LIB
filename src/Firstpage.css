@@ -1,0 +1,159 @@
+
+
+/* Here we declare styles of html page */
+@import url('http://fonts.googleapis.com/css2?family=Poppins');
+
+/*  Common  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+.active {
+	color: whitesmoke;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.active:hover {
+	transform: scale(1.1);
+}
+
+/* navbar */
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+	color: whitesmoke;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+}
+
+.nav-links li {
+	margin: 0 30px;
+}
+
+.logo {
+	display: block;
+	font-size: 50px;
+	color: whitesmoke;
+	font-style: italic;
+}
+
+/* header */
+header {
+	width: 100vw;
+	height: 100vh;
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.header-content {
+	margin-bottom: 200px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.header-content h2 {
+	font-size: 4vmin;
+}
+
+.line {
+	width: 150px;
+	height: 4px;
+	background: #fc036b;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+.header-content h1 {
+	font-size: 7vmin;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.ctn {
+	padding: 10px 15px;
+	background: #fc036b;
+	border-radius: 30px;
+	color: whitesmoke;
+}
+
+.ctn2 {
+	padding: 10px 15px;
+	background: #fc036b;
+	border-radius: 30px;
+	color: whitesmoke;
+}
+
+.ctn2:hover {
+	transform: scale(1.1);
+	color: #fc036b;
+	box-shadow: 2px 2px 5px #00000056;
+}
+
+.ctn:hover {
+	background: whitesmoke;
+	transform: scale(1.1);
+	color: #fc036b;
+	box-shadow: 2px 2px 5px #00000056;
+}
+
+.menu-btn {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 40px;
+	cursor: pointer;
+	/* background-color: #484872; */
+	display: none;
+}
+
+/**
+* mobile divice
+* responsive
+*/
+
+@media only screen and (max-width:850px) {
+	.menu-btn {
+		display: block;
+	}
+
+	.navbar {
+		padding: 0;
+	}
+
+	.nav-links {
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		background: #484872;
+		justify-content: center;
+		margin-top: -900px;
+		transition: all 0.5s ease;
+	}
+
+	.mobile-menu {
+		border-bottom-right-radius: 30%;
+		margin-top: 0px;
+	}
+
+	.nav-links li {
+		margin: 30px auto;
+	}
+}
