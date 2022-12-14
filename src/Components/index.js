@@ -11,5 +11,6 @@ import Login from './Main/Main';
 import Firstpage from './Firstpage/firstpage';
 import About from './about/about';
 import Branches from './branches/branches';
+import Registation from './Registation/Registation';
 
-export {Login, Firstpage, About, Branches}
+export {Login, Firstpage, About, Branches, Registation}
