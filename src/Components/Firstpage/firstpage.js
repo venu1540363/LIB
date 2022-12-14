@@ -1,13 +1,19 @@
+/**
+ * @param background Image we import from img folder which is inside of src.
+ * @param btn Image we import from img folder which is inside of src.
+ * @param Firstpage Here is the page where we can get into after
+ */
+
+
 import React from "react"
 import background from '/Projects/react/library/src/img/istockphoto-1336271758-170667a.jpg'
-import '/Projects/react/library/src/Firstpage.css'
+import '/Projects/react/library/src/Components/Firstpage/Firstpage.css'
 import btn from '/Projects/react/library/src/img/menu-btn.png'
 
 function Firstpage() {
-
 	return (
 		<>
-			<div  >
+			<div>
 				<nav className="navbar">
 					<div className="logo">IIIT</div>
 					<ul className="nav-links">
@@ -17,7 +23,7 @@ function Firstpage() {
 					</ul>
 				</nav>
 				<img src={btn} alt="ntg" className="menu-btn"></img>
-				<header style={{ backgroundImage: `url(${background})` }}>
+				<header style={{ backgroundImage: `url(${background})`}}>
 					<div className="header-content">
 						<h2>WELCOME TO MY COLLEGE PAGE</h2>
 						<div className="line"></div>

@@ -1,16 +1,14 @@
 import React from 'react';
-// import About from './files/about';
-import Firstpage from './files/firstpage';
-// import Login from './files/one';
-// import Brn from './files/brn'
+
+import {Login, Firstpage, About, Branches} from "./Components/index"
 
 function App() {
   return (
     <>
-    {/* <Login /> */}
-    {/* <About /> */}
-    <Firstpage />
-    {/* <Brn /> */}
+      <Login />
+      <Firstpage />
+      <About />
+      <Branches />
     </>
   );
 }

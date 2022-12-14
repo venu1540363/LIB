@@ -1,0 +1,27 @@
+
+/*Stylesheet of About page*/
+
+*{
+	padding: 0;
+	margin: 0;
+} 
+
+body {
+	overflow-x:hidden;	
+	background-color: #484872;
+}
+.main {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: cal(var(--bs-gutter-x) * -1);	
+	margin-right: cal(var(--bs-gutter-x) * -2);	
+	margin-left: cal(var(--bs-gutter-x) * -2);	
+	width: 100%;
+}
+ul.Note {
+	list-style-type: disc;
+	padding-left: 2%;
+}
+
